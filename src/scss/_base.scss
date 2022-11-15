@@ -3,6 +3,20 @@
 /* Variables */
 $desktop: 768px;
 
+/*
+Min färgpalett:
+03071E
+370617
+6A040F
+9D0208
+D00000
+DC2F02
+E85D04
+F48C06
+FAA307
+FFBA08
+*/
+
 /* Resets */
 * {
   box-sizing: border-box;
@@ -11,7 +25,9 @@ $desktop: 768px;
 }
 
 html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: whitesmoke;
 }
 
 /* Mixins */

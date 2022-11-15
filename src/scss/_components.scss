@@ -1,3 +1,17 @@
 @use "base" as b;
 
 /* This file contains reusables such as buttons, navbars, cards etc. */
+
+//Moviecard
+.card {
+  @include b.FlexColCenter;
+  &__title {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: #f48c06;
+
+    &__image {
+    }
+  }
+}

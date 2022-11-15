@@ -1,3 +1,15 @@
 @use "base" as b;
 
 /* This file contains all CSS regarding basic layout */
+
+body {
+  background-color: #03071e;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.maincontainer {
+  @include b.FlexColCenter;
+}
